@@ -16,7 +16,7 @@ public class ShoppingCart {
         object_2.desc = "Pants";
         System.out.println("Object 1: " + object_1.desc);
         System.out.println("Object 2: " + object_2.desc);
-        object_2 = object_1;
+        object_1 = object_2;
         System.out.println("Object 1: " + object_1.desc);
         System.out.println("Object 2: " + object_2.desc);
     }
