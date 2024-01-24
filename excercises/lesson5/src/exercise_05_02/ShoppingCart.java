@@ -10,6 +10,8 @@ public class ShoppingCart {
         String custName = "Mary Smith",
                 clothes[] = {"vests", "pants", "perfumes", "hats"},
                 message = custName + " is looking for " + clothes.length + " items.";
+        double price = 36.69, vat = 1.15;
+        int quantity = 1;
         System.out.println(message);
         System.out.println("One of the items is " + clothes[2]);
         // Error: Index 4 out of bounds for length 4
