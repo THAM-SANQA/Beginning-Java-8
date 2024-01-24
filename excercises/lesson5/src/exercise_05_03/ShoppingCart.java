@@ -7,8 +7,10 @@ package exercise_05_03;
 public class ShoppingCart {
     public static void main(String[] args) {
         String custName = "Kat Niggress",
-        clothes[] = {"Vests", "Pants", "Perfumes", "Hats"},
-        message = custName + " is looking for " + clothes.length + " items.";
+            clothes[] = {"Vests", "Pants", "Perfumes", "Hats"},
+            message = custName + " is looking for " + clothes.length + " items.";
+        double price = 36.69, vat = 1.15;
+        int quantity = 1;
         System.out.println(message);
         int x = 1;
         System.out.println("Items purchased: ");
