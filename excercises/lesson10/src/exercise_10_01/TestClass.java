@@ -17,11 +17,12 @@ public class TestClass {
         } else {
             x *= y;
         }
-        System.out.println("Original x = " + x);
+        System.out.println("Original 'x' = '" + x + "'.");
+        // Replicate using ternary operator.
         x = 4;
         y = 9;
         x = ((y / x) < 3) ? (x += y) : (x *= y);
-        System.out.println("Replicate x = " + x);
+        System.out.println("Replicate 'x' = '" + x + "'.");
 
     }
 }
