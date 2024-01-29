@@ -26,6 +26,23 @@ public class Lesson10 {
         numberOfGoals++;
         s = (numberOfGoals == 1 ? "goal" : "goals");
         System.out.println("I scored " + numberOfGoals + " " + s);
+
+//        int month = 8;
+//        boolean isLeapYear = false;
+//        if (month > 12 || month < 1) {
+//            System.out.println("Invalid month.");
+//        } else if (month == 2) {
+//            if (!isLeapYear) {
+//                System.out.println("28 days in the month.");
+//            } else {
+//                System.out.println("29 days in the month.");
+//            }
+//        } else if (month == 4 || month == 6 || month == 9 || month == 11) {
+//            System.out.println("30 days in the month.");
+//        } else {
+//            System.out.println("31 days in the month.");
+//
+//        }
     }
 
 }
