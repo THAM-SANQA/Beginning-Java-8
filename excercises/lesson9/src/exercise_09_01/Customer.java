@@ -32,11 +32,4 @@ public class Customer {
     public String getSsn() {
         return ssn;
     }
-
-    /**
-     * @param ssn the ssn to set
-     */
-    public void setSsn(String ssn) {
-        this.ssn = ssn;
-    }
 }
