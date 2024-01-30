@@ -37,13 +37,13 @@ public class Order {
     public void calcDiscount() {
         switch (custType) {
             case NONPROFIT:
-                discount = (total > 900) ? 10.00 : 5;
+                discount = (total > 900) ? 10 : 5;
                 break;
             case PRIVATE:
-                discount = (total > 900) ? 7.00 : 0;
+                discount = (total > 900) ? 7 : 0;
                 break;
             case (CORP):
-                discount = (total < 500) ? 8.00 : 5;
+                discount = (total < 500) ? 8 : 5;
                 break;
             default:
                 System.out.println("Invalid custType");
