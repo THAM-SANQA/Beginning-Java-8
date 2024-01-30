@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package exercise_10_02;
+package exercise_10_03;
+
+import exercise_10_02.*;
 
 /**
  *
@@ -33,24 +35,18 @@ public class Order {
 
     // Code the calcDiscount method.
     public void calcDiscount() {
-        if (custType == NONPROFIT) {
-            if (total > 900) {
-                discount = 10.00;
-            } else {
-                discount = 5.00;
-            }
-        } else if (custType == PRIVATE) {
-            if (total > 900) {
-                discount = 7.00;
-            } else {
-                discount = 0;
-            }
-        } else if (custType == CORP) {
-            if (total < 500) {
-                discount = 8.00;
-            } else {
-                discount = 5.00;
-            }
+        switch (custType) {
+            case NONPROFIT:
+                discount = (total > 900) ? 10.00 : 5;
+                break;
+            case PRIVATE:
+                discount = (total > 900) ? 7.00 : 0;
+                break;
+            case (CORP):
+                discount = (total < 500) ? 8.00 : 5;
+                break;
+            default:
+                System.out.println("Invalid custType");
         }
     }
 
