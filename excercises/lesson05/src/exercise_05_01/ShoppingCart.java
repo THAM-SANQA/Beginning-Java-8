@@ -15,7 +15,7 @@ public class ShoppingCart {
         String custName = "Mary Smith", itemDesc = " Shirt", message;
         // declaring price, etc.
         double price = 36.69, vat = 1.15, total;
-        int quantity = 1;
+        int quantity = 3;
         // calculating total
         total = price * quantity * vat;
         
