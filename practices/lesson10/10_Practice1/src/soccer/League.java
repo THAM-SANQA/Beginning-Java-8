@@ -30,7 +30,7 @@ public class League {
         theLeague.showBestTeam(theTeams);
 
     }
-
+ 
     public Team[] createTeams() {
 
         Player player1 = new Player("George Eliot");
