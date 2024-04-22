@@ -4,16 +4,15 @@
  * and open the template in the editor.
  */
 
-package practice1;
+package soccer;
 
 /**
  *
  * @author Administrator
  */
-public class Goal {
+public class Team {
     
-    public Team theTeam;
-    public Player thePlayer;
-    public double theTime;
+    public String teamName;
+    public Player[] playerArray;
     
 }

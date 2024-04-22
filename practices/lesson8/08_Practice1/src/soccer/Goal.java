@@ -4,14 +4,16 @@
  * and open the template in the editor.
  */
 
-package practice1;
+package soccer;
 
 /**
  *
  * @author Administrator
  */
-public class Player {
+public class Goal {
     
-    public String playerName;
+    public Team theTeam;
+    public Player thePlayer;
+    public double theTime;
     
 }
