@@ -109,7 +109,7 @@ public class League {
         
         Collections.sort(thePlayers, (p1, p2) -> Double.valueOf(p2.getGoalsScored()).compareTo(Double.valueOf(p1.getGoalsScored())));
         
-        System.out.println("\n\nBest Players");
+        System.out.println("\n\nTop Scorers");
         for (Player currPlayer: thePlayers){
             System.out.println(currPlayer.getPlayerName() + " : " + currPlayer.getGoalsScored());
         }
